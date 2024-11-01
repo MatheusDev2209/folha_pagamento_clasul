@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def funcionario(request):
+    return render (request, 'funcionarios/base_templates/base.html')
